@@ -1,0 +1,12 @@
+os: linux
+dist: xenial
+language: ruby
+ruby:
+- 2.7.3
+script:
+- ruby -v
+deploy:
+  provider: heroku
+  on:
+    all_branches: true
+    app: ruby-tcis-hw
