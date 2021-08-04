@@ -10,3 +10,4 @@ deploy:
   on:
     all_branches: true
     app: ruby-tcis-hw
+  api_key: $HEROKU_API_KEY
